@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link href="style.css" rel="stylesheet">
 
   </head>
   <body>
@@ -11,7 +12,7 @@
         
         <nav class="main-navigation">
 
-         <a class="main-header-logo"><img src="images/logo-main.png" width="368" height="153" alt="Логотоип магазина Барбешоп"/></a>
+         <a class="main-header-logo"><img src="images/logo-main.svg" width="368" height="153" alt="Логотоип магазина Барбешоп"/></a>
          
 
           <ul class="site-navigation"">
@@ -53,6 +54,7 @@
 
           </section>
 
+        <div class="index-colums">  
           <section class="news">
 
             <h2>Новости</h2>
@@ -75,10 +77,13 @@
             <figure class="gallery-content">
               <a href="#"><img src="images/studio.jpg" width="286" height="164" alt="Интерьер"></a>
             </figure>
-            <span class="button gallery-button gallery-button-back">Назад</span>
-            <span class="button gallery-button gallery-button-next">Вперед</span>
+            <button class="button gallery-button gallery-button-back">Назад</button>
+            <button class="button gallery-button gallery-button-next">Вперед</button>
           </section>
 
+          </div>
+         
+         <div class="index-colums">
           <section class="contacts">
             <h2>Контактная информация</h2>
             <p>
@@ -94,7 +99,7 @@
             <a class="button contacts-button" href="map.html">Как проехать</a>
             <a class="button contacts-button" href="contacts.html">Обратная связь</a>
           </section>
-
+          
           <section class="appointment">
             <h2>Записаться</h2>
             <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
@@ -118,7 +123,7 @@
               <button class="button" type="submit">Отправить</button>
             </form>  
           </section>
-
+      </div>
         </main>
 
         <footer class="main-footer">
@@ -159,12 +164,12 @@
             </p>
             <button class="button" type="submit">Войти</button>
           </form>
-          <span class="modal-close">x</span>
+          <button class="modal-close">x</button>
         </section>
 
         <section class="modal modal-map">
           <h2 class="visually-hidden">Как до нас добраться</h2>
-          <span class="modal-close">x</span>
+          <button class="modal-close">x</button>
         </section>
   </body>
 </html>

@@ -1,0 +1,10 @@
+html{
+	background: #333;
+	color:#fff;
+}
+button{
+	cursor: pointer;
+}
+.visually-hidden{
+	display: none;
+}
